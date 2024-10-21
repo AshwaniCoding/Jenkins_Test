@@ -1,0 +1,122 @@
+/* src/components/UserMyBooks/userMyBooks.css */
+.user-my-books {
+    padding: 20px;
+    background-color: #f5f5f5;
+    min-height: 100vh;
+}
+
+.header{
+    align-items: start;
+}
+
+.header h2 {
+    margin-top: 15px;
+    font-size: 36px;
+    color: #e2d2c7;
+    margin-bottom: 20px;
+}
+
+.filter-sort {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filter-sort .form-group {
+    width: 100%;
+}
+
+.filter-sort .form-control {
+    background-color: #eaeaea;
+    border: none;
+    font-size: 16px;
+    color: #593d29;
+}
+
+.book-image {
+    width: 50px;
+    height: auto;
+}
+
+.book-table {
+    background-color: #ffffff;
+    border: 1px solid #d4a373;
+    width: 100%;
+    table-layout: auto;
+}
+
+.book-table thead {
+    background-color: #593d29;
+    color: #f4e1d2;
+}
+
+.book-table th,
+.book-table td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 12px;
+    font-size: 16px;
+}
+
+.book-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.book-table tbody tr:hover {
+    background-color: #f1e6d9;
+}
+
+.book-table .btn-success {
+    background-color: #6da06f;
+    border-color: #6da06f;
+}
+
+/* Ensure the table remains in tabular format on smaller screens */
+@media (max-width: 768px) {
+    .book-table {
+        font-size: 14px; /* Smaller font size for small screens */
+    }
+
+    .book-table th,
+    .book-table td {
+        padding: 8px; /* Reduced padding for smaller screens */
+    }
+
+    .quick-stats{
+        flex-direction: column;
+
+    }
+
+    .stat-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .welcome-banner h1{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 576px) {
+    .book-table {
+        font-size: 12px; /* Further reduced font size for very small screens */
+    }
+
+    .book-table th,
+    .book-table td {
+        padding: 6px; /* Further reduced padding for very small screens */
+    }
+
+    .quick-stats{
+        flex-direction: column;
+
+    }
+
+    .stat-card{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .welcome-banner h1{
+        font-size: 30px;
+    }
+}

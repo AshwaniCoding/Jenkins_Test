@@ -1,0 +1,193 @@
+.user-home {
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #eaeaea;
+}
+
+/* Welcome Banner */
+.welcome-banner {
+  background-color: #d4a373;
+  color: #593d29;
+  padding: 40px;
+  text-align: center;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.welcome-banner h1 {
+  font-size: 2.5rem;
+}
+
+/* Quick Stats */
+.quick-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.stat-card {
+  background-color: #f1e6d9;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  width: 23%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  background-color: #d4a373;
+}
+
+.stat-icon {
+  font-size: 2rem;
+  color: #593d29;
+}
+
+.stat-info h3 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #593d29;
+}
+
+.stat-info p {
+  font-size: 1.5rem;
+  color: #0073e6;
+}
+
+/* Recent Activity */
+.recent-activity {
+  margin-bottom: 20px;
+}
+
+.recent-activity h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #593d29;
+}
+
+.activity-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  background-color: #f1e6d9;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.activity-item:hover {
+  transform: translateY(-5px);
+}
+
+.activity-item img {
+  width: 60px;
+  height: 80px;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+.activity-info h4 {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #593d29;
+}
+
+.activity-info p {
+  margin: 5px 0 0;
+  color: #777;
+}
+
+/* Recommendations */
+
+.recommendations {
+  margin-bottom: 20px;
+}
+
+.recommendations h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #593d29;
+}
+
+.recommendation-carousel {
+  display: flex;
+  overflow-x: auto;
+}
+
+.recommendation-item {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+  margin-right: 15px;
+  width: 200px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.recommendation-item:hover {
+  transform: translateY(-5px);
+  background-color: #f1e6d9;
+}
+
+.recommendation-item img {
+  width: 50px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.recommendation-item h4 {
+  font-size: 1.2rem;
+  color: #593d29;
+  margin: 10px 0;
+}
+
+.recommendation-item button {
+  background-color: #d4a373;
+  color: #593d29;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin: 5px 0;
+  transition: background-color 0.3s ease;
+}
+
+.recommendation-item button:hover {
+  background-color: #593d29;
+  color: #f1e6d9;
+}
+
+/* Library News */
+.library-news {
+  margin-bottom: 20px;
+}
+
+.library-news h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #593d29;
+}
+
+.library-news ul {
+  list-style: none;
+  padding: 0;
+}
+
+.library-news li {
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.library-news li:hover {
+  transform: translateY(-3px);
+  background-color: #f1e6d9;
+}
+

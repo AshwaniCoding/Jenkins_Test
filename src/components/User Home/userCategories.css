@@ -1,0 +1,45 @@
+.user-categories {
+    padding: 20px;
+  }
+  
+  .header h2 {
+    margin-bottom: 20px;
+    color: #f4e1d2;;
+    
+  }
+  
+  .filter-sort .form-label {
+    font-weight: bold;
+  }
+  
+  .book-table {
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .book-image {
+    width: 50px;
+    height: auto;
+  }
+  
+  .action-btn {
+    margin-right: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .table-responsive {
+    overflow-x: auto;
+  }
+  
+  @media (max-width: 767px) {
+    .action-btn {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    
+    .table-responsive {
+      margin-top: 15px;
+    }
+  }
+  

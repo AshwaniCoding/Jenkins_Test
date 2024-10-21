@@ -1,0 +1,50 @@
+.home {
+  overflow-y: scroll; /* Allow vertical scrolling */
+  overflow-x: hidden; /* Disable horizontal scrolling */
+}
+
+/* Hide the vertical scrollbar for Chrome, Safari, Edge */
+.home::-webkit-scrollbar {
+  width: 0; /* Removes the scrollbar */
+  background: transparent; /* Optional: Set background to transparent */
+}
+
+/* Hide scrollbar in Firefox */
+.home {
+  scrollbar-width: none; /* Removes scrollbar for Firefox */
+}
+
+.home {
+    width: 100%;
+    background-color: #f4e1d2;
+  }
+  
+  .content-section {
+    padding: 40px 20px;
+    background-color: #fff;
+    color: #593d29;
+    text-align: center;
+  }
+  
+  .content-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .content-section p {
+    font-size: 16px;
+    margin-bottom: 40px;
+  }
+  
+  @media (min-width: 769px) {
+    .content-section h2 {
+      font-size: 36px;
+    }
+  
+    .content-section p {
+      font-size: 18px;
+    }
+  }
+
+  
+  
